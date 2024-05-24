@@ -1,0 +1,6 @@
+#!bin/bash
+sudo yum install httpd -y 
+sudo systemctl start httpd 
+sudo systemctl enable httpd 
+sudo cp index.html /var/www/html/  -v 
+sudo cp cat_meme.jpg /var/www/html/ -v 
